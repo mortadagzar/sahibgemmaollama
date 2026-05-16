@@ -1,0 +1,18 @@
+{
+  "v": "5.12.2",
+  "fr": 30,
+  "ip": 0,
+  "op": 120,
+  "w": 128,
+  "h": 128,
+  "nm": "sahibuya-avatar",
+  "ddd": 0,
+  "markers": [
+    { "tm": 0, "cm": "idle", "dr": 30 },
+    { "tm": 30, "cm": "listening", "dr": 30 },
+    { "tm": 60, "cm": "thinking", "dr": 30 },
+    { "tm": 90, "cm": "celebrating", "dr": 30 }
+  ],
+  "assets": [],
+  "layers": []
+}
