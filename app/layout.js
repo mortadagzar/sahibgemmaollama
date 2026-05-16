@@ -1,4 +1,5 @@
 import { Noto_Naskh_Arabic } from 'next/font/google';
+import { shellCopy } from './src/content/copy';
 import './globals.css';
 
 const notoNaskhArabic = Noto_Naskh_Arabic({
@@ -9,8 +10,8 @@ const notoNaskhArabic = Noto_Naskh_Arabic({
 });
 
 export const metadata = {
-  title: 'صحبوية | مركز القيادة',
-  description: 'الهيكل المرئي RTL لمركز قيادة صحبوية.'
+  title: shellCopy.metadataTitle,
+  description: shellCopy.metadataDescription
 };
 
 export default function RootLayout({ children }) {
